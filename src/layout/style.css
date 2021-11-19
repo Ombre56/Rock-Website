@@ -1,0 +1,27 @@
+.App div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background-color: #484848;
+  color: white;
+}
+
+.navigation{
+  background-color: #484848;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+}
+
+.slider{
+  min-height: 70vh;
+}
