@@ -36,7 +36,7 @@ const Articles = () => {
     const artlist = articles.map(article => (
         <Article key={article.id} {...article} />
     ))
-    const header = "AKTUALNOSCI";
+    const header = "cos innego";
     return (
         <div className="articles">
             <h1 className="header_article">{header}</h1>
