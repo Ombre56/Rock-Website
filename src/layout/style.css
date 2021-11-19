@@ -14,12 +14,13 @@ header{
 }
 
 .navigation{
-  background-color: #484848;
+  background-color: #313030;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   min-height: 5vh;
+  opacity: 0.5;
 }
 
 .slider{
