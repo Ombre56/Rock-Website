@@ -9,6 +9,7 @@
 
 .header_article{
     text-align: center;
+    margin-top: 20px;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
 }

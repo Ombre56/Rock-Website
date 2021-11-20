@@ -1,4 +1,5 @@
 import React from 'react'
+import Navigation from '../Navigation/Navigation';
 import logo from '../images/logo.png';
 import youtube from '../images/youtube_icon.png';
 import facebook from '../images/facebook_icon.png';
@@ -8,31 +9,38 @@ function Header() {
     const telephone = "+48 123 456 789";
     return (
         <div className="container">
-            <div className="social_media">
-                <a href="https://www.youtube.com">
-                    <img
-                        sizes="(max-width: 64px) 100vw, 64px"
-                        srcset={youtube}
-                        src={youtube}
-                        alt="Youtube" />
-                </a>
-                <a href="https://www.facebook.com">
-                    <img
-                        sizes="(max-width: 64px) 100vw, 64px"
-                        srcset={facebook}
-                        src={facebook}
-                        alt="Youtube" />
-                </a>
+            <div className="left_container">
+                <div className="telephone">
+                    <p className="number_telephone">
+                        ☎ {telephone}
+                    </p>
+                </div>
+                <div className="social_media">
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+                        <img
+                            sizes="(max-width: 67px) 100vw, 67px"
+                            srcSet={youtube}
+                            src={youtube}
+                            alt="Youtube" />
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                        <img
+                            sizes="(max-width: 67px) 100vw, 67px"
+                            srcSet={facebook}
+                            src={facebook}
+                            alt="Youtube" />
+                    </a>
+                </div>
             </div>
             <div className="logo">
-                <picture>
-                    <img src={logo} alt="logo" />
-                </picture>
+                <a href="#">
+                    <picture>
+                        <img src={logo} alt="logo" />
+                    </picture>
+                </a>
             </div>
-            <div className="telephone">
-                <p className="number_telephone">
-                    {telephone}
-                </p>
+            <div className="navigation">
+                <Navigation />
             </div>
         </div>
     )
