@@ -33,7 +33,7 @@ function Header() {
                 </div>
             </div>
             <div className="logo">
-                <a href="#">
+                <a href="#home">
                     <picture>
                         <img src={logo} alt="logo" />
                     </picture>

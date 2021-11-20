@@ -12,7 +12,7 @@ function App() {
           <Header />
         </header>
         <main>
-          <section className="slider">
+          <section id="home" className="slider">
             <Slider />
           </section>
           <section id="articles" className="articles">
