@@ -5,11 +5,31 @@
     display: flex;
     flex-direction: column;
     font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .header_article{
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+/* Display on phone vertically */
+@media (max-width: 500px) {
+    .header_article{
+        font-size: calc(40px + 2vmin);
+    }
+}
+
+/* Display on phone horizontally */
+@media (max-width: 800px) and (min-width: 500px) {
+    .header_article{
+        font-size: calc(40px + 2vmin);
+    }
 }

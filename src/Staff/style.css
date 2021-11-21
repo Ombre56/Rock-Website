@@ -1,0 +1,84 @@
+.header_staff{
+    text-align: center;
+    padding-top: 20px;
+    font-size: calc(80px + 2vmin);
+    font-family: Duplexide;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.profile_img{
+    width: 234.02px;
+    height: 221.5px;
+}
+
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.profile{
+    flex-basis: 280px;
+}
+
+.profile .profile_img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.username{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profile h5{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Responsive on other devices */
+
+@media only screen and (max-width: 1150px){
+    .profiles{
+        flex-direction: column;
+    }
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile p{
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+}
+
+/* Display on phone vertically */
+@media (max-width: 500px) {
+    .header_staff{
+        font-size: calc(40px + 2vmin);
+    }
+}
+
+/* Display on phone horizontally */
+@media (max-width: 800px) and (min-width: 500px) {
+    .header_staff{
+        font-size: calc(40px + 2vmin);
+    }
+}
