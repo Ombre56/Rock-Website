@@ -3,17 +3,16 @@
   margin: 0 auto;
 }
 
-main{
-  display: flex;
-  flex-direction: column;
-}
-
 header{
-  background-color: #484848;
+  background-color: #585454;
   color: white;
   position: sticky;
   top: 0;
-  min-height: 10.9vh;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
 }
 
 .slider{

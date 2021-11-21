@@ -1,5 +1,6 @@
-import React from 'react'
-import Navigation from '../Navigation/Navigation';
+import React from 'react';
+import * as Icon from 'react-bootstrap-icons';
+import Navbar from '../components/Navbar/Navbar';
 import logo from '../images/logo.png';
 import youtube from '../images/youtube_icon.png';
 import facebook from '../images/facebook_icon.png';
@@ -12,7 +13,7 @@ function Header() {
             <div className="left_container">
                 <div className="telephone">
                     <p className="number_telephone">
-                        ☎ {telephone}
+                        <Icon.TelephoneFill className="telephone_icon" /> {telephone}
                     </p>
                 </div>
                 <div className="social_media">
@@ -40,7 +41,7 @@ function Header() {
                 </a>
             </div>
             <div className="navigation">
-                <Navigation />
+                <Navbar />
             </div>
         </div>
     )

@@ -44,42 +44,38 @@
     padding: 20px 0 0 10px;
 }
 
-.navigation{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
 .telephone{
     background-color: #6B6B6B;
     height: 30px;
     border-radius: 0 0 12px 0;
 }
 
+.telephone_icon{
+    padding-top: 3px;
+}
+
 /* Display on phone vertically */
 @media (max-width: 500px) {
-    .number_telephone{
-        font-size: 10px;
-    }
-    .navigation{
-        visibility: hidden;
-    }
-    .social_media img{
-        width: 32px;
-        height: 24px;
-    }
+    
+        .number_telephone{
+            font-size: 10px;
+        }
+
+        .social_media img{
+            width: 32px;
+            height: 24px;
+        }
 }
 
 /* Display on phone horizontally */
 @media (max-width: 800px) and (min-width: 500px) {
-    .number_telephone{
-        font-size: 10px;
-    }
-    .navigation{
-        visibility: hidden;
-    }
-    .social_media img{
-        width: 32px;
-        height: 24px;
-    }
-}
+    
+        .number_telephone{
+            font-size: 10px;
+        }
+
+        .social_media img{
+            width: 32px;
+            height: 24px;
+        }
+} 
