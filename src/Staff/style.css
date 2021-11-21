@@ -23,14 +23,13 @@
 
 .profile{
     flex-basis: 280px;
+    text-align: center;
 }
 
 .profile .profile_img{
     height: 260px;
     width: 260px;
     border-radius: 50%;
-    cursor: pointer;
-    transition: 400ms;
 }
 
 .username{
@@ -51,6 +50,13 @@
     text-align: justify;
 }
 
+.profile_community{
+    color: #C4C4C4;
+    margin-top: 10px;
+    width: 87.66px;
+    height: 25.36px;
+}
+
 /* Responsive on other devices */
 
 @media only screen and (max-width: 1150px){
@@ -64,8 +70,11 @@
     }
     .profile p{
         text-align: center;
-        margin: 20px 60px 80px 60px;
+        margin: 20px 60px 0 60px;
         font-size: 20px;
+    }
+    .profile_community{
+        margin-bottom: 20px;
     }
 }
 

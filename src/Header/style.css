@@ -55,3 +55,31 @@
     height: 30px;
     border-radius: 0 0 12px 0;
 }
+
+/* Display on phone vertically */
+@media (max-width: 500px) {
+    .number_telephone{
+        font-size: 10px;
+    }
+    .navigation{
+        visibility: hidden;
+    }
+    .social_media img{
+        width: 32px;
+        height: 24px;
+    }
+}
+
+/* Display on phone horizontally */
+@media (max-width: 800px) and (min-width: 500px) {
+    .number_telephone{
+        font-size: 10px;
+    }
+    .navigation{
+        visibility: hidden;
+    }
+    .social_media img{
+        width: 32px;
+        height: 24px;
+    }
+}
