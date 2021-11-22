@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import Header from '../Header/Header';
+// import Navbar from '../components/Navbar';
 import Slider from '../Slider/Slider';
 import Articles from '../Articles/Articles';
 import Staff from '../Staff/Staff';
