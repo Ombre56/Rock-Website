@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css';
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import Card1 from '../images/card1.jpg';
-import * as Icon from 'react-bootstrap-icons';
 import Card2 from '../images/card2.jpg';
 import Card3 from '../images/card3.jpg';
 
@@ -17,10 +17,10 @@ function Staff() {
                     <h5>Perkusista</h5>
                     <p>{text}</p>
                     <a href="https://twitter.com">
-                        <Icon.Twitter className="profile_community" />
+                        <FaTwitter className="profile_community" />
                     </a>
                     <a href="https://www.instagram.com">
-                        <Icon.Instagram className="profile_community" />
+                        <FaInstagram className="profile_community" />
                     </a>
                 </div>
                 <div className="profile">
@@ -29,10 +29,10 @@ function Staff() {
                     <h5>Wokalista</h5>
                     <p>{text}</p>
                     <a href="https://twitter.com">
-                        <Icon.Twitter className="profile_community" />
+                        <FaTwitter className="profile_community" />
                     </a>
                     <a href="https://www.instagram.com">
-                        <Icon.Instagram className="profile_community" />
+                        <FaInstagram className="profile_community" />
                     </a>
                 </div>
                 <div className="profile">
@@ -41,10 +41,10 @@ function Staff() {
                     <h5>Gitarzysta</h5>
                     <p>{text}</p>
                     <a href="https://twitter.com">
-                        <Icon.Twitter className="profile_community" />
+                        <FaTwitter className="profile_community" />
                     </a>
                     <a href="https://www.instagram.com">
-                        <Icon.Instagram className="profile_community" />
+                        <FaInstagram className="profile_community" />
                     </a>
                 </div>
             </div>
