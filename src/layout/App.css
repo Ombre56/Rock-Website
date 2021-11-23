@@ -3,23 +3,16 @@
   margin: 0 auto;
 }
 
-header{
-  background-color: #585454;
-  color: white;
-  position: sticky;
-  top: 0;
-}
-
-main{
-  display: flex;
-  flex-direction: column;
-}
-
 .slider{
-  min-height: 70vh;
+  height: 70vh;
+}
+
+.articles_section{
+  background-color: #373737;
+  min-height: 100vh;
 }
 
 .staff_section{
   background-color: #585454;
-  min-height: 74.4vh;
+  min-height: 100vh;
 }
