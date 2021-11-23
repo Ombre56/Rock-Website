@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    min-height: 10vh;
+    position: relative;
+}
+
+.social_media_container{
+    flex-basis: 10%;
+    align-self: center;
+}
+
+.logo{
+    flex-basis: 50%;
+}
+
+.navigation{
+    flex-basis: 40%;
+    align-self: center;
+}
+
+.logo img{
+    width: 19em;
+    height: 5.8em;
+}
+
+.social_media{
+    color: #000;
+    width: 2.2em;
+    height: 1.6em;
+}
+
+.telephone{
+    position: absolute;
+    font-size: .75em;
+    line-height: .9em;
+    width: 9.2em;
+    height: 1.4em;
+    color: #C4C4C4;
+    left: 0;
+    top: 0;
+    background: #6B6B6B;
+    border-radius: 0 0 12px 0;
+}
+
+/* Display on phone vertically */
+@media (max-width: 500px) {
+    
+        .logo img{
+            width: 15.7em;
+            height: 5.2em;
+        }
+}
+
+/* Display on phone horizontally */
+@media (max-width: 800px) and (min-width: 500px) {
+    
+        .logo img{
+            width: 15.7em;
+            height: 5.2em;
+        }
+
+}

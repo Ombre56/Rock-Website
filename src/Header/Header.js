@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import logo from '../images/logo.png';
-// import { BsFillTelephoneFill } from "react-icons/bs";
+import { BsFillTelephoneFill } from "react-icons/bs";
 import { ImYoutube } from "react-icons/im";
 import { IoLogoFacebook } from "react-icons/io";
-import './style.css';
+import './Header.css';
 
 const navbarLinks = [
     {
@@ -29,15 +29,15 @@ function Header() {
     const telephone = "+48 123 456 789";
     return (
         <div className="container">
-            {/* <p className="telephone">
+            <p className="telephone">
                 <BsFillTelephoneFill className="telephone_icon" /> {telephone}
-            </p> */}
-            <div className="social_media">
+            </p>
+            <div className="social_media_container">
                 <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
-                    <ImYoutube />
+                    <ImYoutube className="social_media" />
                 </a>
                 <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-                    <IoLogoFacebook />
+                    <IoLogoFacebook className="social_media" />
                 </a>
             </div>
             <div className="logo">
