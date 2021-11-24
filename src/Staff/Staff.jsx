@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css';
+import './Staff.css';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
 import Card1 from '../images/card1.jpg';
 import Card2 from '../images/card2.jpg';

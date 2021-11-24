@@ -1,12 +1,13 @@
 import React from 'react';
 const Article = ({ title, date, text }) => {
     const styles = {
-        marginTop: 10
+        marginTop: 10,
     }
     return (
         <article style={styles}>
             <h3 style={{
                 marginBottom: 3,
+                marginTop: 50,
                 textTransform: "uppercase"
             }}>{title}</h3>
             <span style={{

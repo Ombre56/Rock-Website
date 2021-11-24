@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css';
-import Header from '../Header/Header';
-// import Navbar from '../components/Navbar';
+import './App.css';
+// import Header from '../Header/Header';
 import Slider from '../Slider/Slider';
+import Navbar from '../components/Navbar';
 import Articles from '../Articles/Articles';
 import Staff from '../Staff/Staff';
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Header />
+        <Navbar />
       </header>
       <main>
         <section id="home" className="slider">
