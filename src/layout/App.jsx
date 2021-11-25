@@ -9,13 +9,11 @@ import Staff from '../Staff/Staff';
 function App() {
   return (
     <div className="App">
-      <header>
+      <header id="home">
         <Navbar />
+        <Slider className="slider" />
       </header>
       <main>
-        <section id="home" className="slider">
-          <Slider />
-        </section>
         <section id="articles" className="articles_section">
           <Articles />
         </section>

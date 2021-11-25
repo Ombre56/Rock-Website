@@ -1,6 +1,6 @@
 .header_staff{
     text-align: center;
-    padding-top: 120px;
+    padding-top: 1.1em;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
@@ -10,85 +10,107 @@
     -webkit-text-stroke-color: black;
 }
 
-.profile_img{
-    width: 234.02px;
-    height: 221.5px;
-}
-
 .profiles{
     display: flex;
     justify-content: space-around;
-    padding-top: 70px;
+    padding-top: 4.2em;
 }
 
 .profile{
-    flex-basis: 280px;
+    flex-basis: 320px;
     text-align: center;
 }
 
 .profile .profile_img{
-    height: 260px;
-    width: 260px;
+    height: 16.25em;
+    width: 16.25em;
+    box-shadow: 4px 8px 22px rgb(0, 0, 0);
     border-radius: 50%;
 }
 
+.profile_img:hover{
+    height: 18em;
+    width: 18em;
+    transition: 0.6s ease-in-out;
+}
+
 .username{
-    margin-top: 30px;
-    font-size: 35px;
+    margin-top: 1em;
+    font-size: 2em;
     font-family: Duplexide;
+    letter-spacing: 1px;
 }
 
 .profile h5{
-    font-size: 18px;
+    font-size: 1.13em;
+    margin-top: 1.24em;
     font-weight: 100;
     letter-spacing: 3px;
     color: #ccc;
 }
 
 .profile p{
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 1.13em;
+    margin-top: 1.25em;
     text-align: justify;
+    color: white;
 }
 
 .profile_community{
     color: #C4C4C4;
-    margin-top: 10px;
-    width: 87.66px;
-    height: 25.36px;
+    margin-top: 0.63em;
+    width: 5.48em;
+    height: 1.59em;
+}
+
+.profile_community:hover{
+    width: 6.10em;
+    height: 2.21em;
+    transition: 0.6s ease-in-out;
 }
 
 /* Responsive on other devices */
 
 @media only screen and (max-width: 1150px){
-    .profiles{
-        flex-direction: column;
-    }
-    .profile{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .profile p{
-        text-align: center;
-        margin: 20px 60px 0 60px;
-        font-size: 20px;
-    }
-    .profile_community{
-        margin-bottom: 20px;
-    }
+        
+        .profiles{
+            flex-direction: column;
+        }
+        .profile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .username{
+            color: white;
+            font-size: 1.8em;
+        }
+        .profile .profile_img{
+            height: 12.25em;
+            width: 12.25em;
+        }
+        .profile p{
+            text-align: center;
+            margin: 20px 50px 10px 50px;
+            font-size: 20px;
+        }
+        .profile_community{
+            margin-bottom: 1.25em;
+        }
 }
 
 /* Display on phone vertically */
 @media (max-width: 500px) {
-    .header_staff{
-        font-size: calc(40px + 2vmin);
-    }
+        
+        .header_staff{
+            font-size: calc(40px + 2vmin);
+        }
 }
 
 /* Display on phone horizontally */
 @media (max-width: 800px) and (min-width: 500px) {
-    .header_staff{
-        font-size: calc(40px + 2vmin);
-    }
+        
+        .header_staff{
+            font-size: calc(40px + 2vmin);
+        }
 }
