@@ -1,0 +1,77 @@
+.header_kontakt{
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: calc(80px + 2vmin);
+    font-family: Duplexide;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.formFieldText{
+    font-size: 22px;
+    color: #FFFFFF;}
+
+.formFieldText2{
+    font-size: 22px;
+    color: #FFFFFF;}
+
+.formField{
+    background-color: #8b8b8b;
+    border: solid white;
+    width: 100%;  
+    margin-bottom: 30px;
+    padding: 3px; 
+    font: inherit; 
+    border-radius: 8px;}
+
+.formField2{
+    background-color: #8b8b8b;
+    border: solid white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    align-items: center; 
+    margin-bottom: 30px;
+    padding: 3px; 
+    font: inherit; 
+    border-radius: 8px;}
+
+#desc{
+    background-color: #8b8b8b;
+    border: solid white;
+    height: 200px;
+    resize: none;}
+
+#sendBtn{
+    cursor:pointer;
+    background: #151515; 
+    background: linear-gradient(#ddd 0, #eee 100%); 
+    border: 1px solid #ccc; 
+    line-height: 32px; 
+    font-size: 14px;
+    padding: 0 25px; 
+    border-radius: 3px;
+    float: right;}
+
+    .start{
+        margin: 30px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;}
+
+        /* Display on phone vertically */
+@media (max-width: 500px) {
+    .header_kontakt{
+        font-size: calc(40px + 2vmin);
+    }
+}
+
+/* Display on phone horizontally */
+@media (max-width: 800px) and (min-width: 500px) {
+    .header_kontakt{
+        font-size: calc(40px + 2vmin);
+    }
+}
