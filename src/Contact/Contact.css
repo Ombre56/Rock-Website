@@ -9,6 +9,11 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+
+.test{
+    padding: 0 300px 0 300px;
+}
+
 .formFieldText{
     font-size: 22px;
     color: #FFFFFF;}
@@ -30,10 +35,7 @@
     background-color: #8b8b8b;
     border: solid white;
     width: 100%;
-    display: flex;
-    flex-direction: row;
     justify-items: space-around;
-    align-items: center; 
     margin-bottom: 30px;
     padding: 3px; 
     font: inherit; 

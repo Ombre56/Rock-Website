@@ -6,15 +6,15 @@ function Contact() {
         <>
             <div class="start">
                 <h3 className="header_kontakt">KONTAKT</h3>
-                <div class="test">
+                <div className="test">
                     <div id="send_form_status"></div>
                     <form method="post" action="/send_form.php" id="contact_form">
-                        <div><label for="name" class="formFieldText">JAK SIĘ NAZYWASZ?</label>
+                        <div><label for="name" className="formFieldText">JAK SIĘ NAZYWASZ?</label>
                             <input type="text" name="name" id="name" class="formField2" />
-                            <label for="email" class="formFieldText">PODAJ SWÓJ E-MAIL</label>
+                            <label for="email" className="formFieldText">PODAJ SWÓJ E-MAIL</label>
                             <input type="text" name="email" id="email" class="formField2" /></div>
-                        <div><label for="desc" class="formFieldText">OPIS</label></div>
-                        <div><textarea name="desc" id="desc" class="formField"></textarea></div><br></br>
+                        <div><label for="desc" className="formFieldText">OPIS</label></div>
+                        <div><textarea name="desc" id="desc" className="formField"></textarea></div><br></br>
                         <div><button id="sendBtn">Wyślij</button></div>
                     </form>
                 </div>
