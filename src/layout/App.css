@@ -1,15 +1,8 @@
 .App div{
     width: 100%;
     margin: 0 auto;
-  }
+}
   
-  main{
-    width: 100%;
-    background-image: url('../images/background.png');
-    background-color: #151515;
-  }
-
-<<<<<<< HEAD
 main{
   width: 100%;
   background-image: url('../images/background.png');
@@ -23,33 +16,28 @@ main{
 .staff_section{
   min-height: 100vh;
 }
-=======
+
   .slider{
-    height: 70vh;
-  }
+    height: 100vh;
+}
   
-  .articles_section{
-   
+.articles_section{
     min-height: 100vh;
-  }
+}
   
-  .staff_section{
-   
+.staff_section{
     min-height: 100vh;
-  }
+}
   
-  .portfolio_section{
-    
-    min-height: 40vh;
-  }
+.portfolio_section{
+    min-height: 100vh;
+}
   
-  .contact_section{
-  
+.contact_section{
     min-height: 10vh;
-  }
+}
   
-  .footer_section{
+.footer_section{
    background-color: #2b2b2b;
     min-height: 10vh;
-  }
->>>>>>> d4fc6770dd39557936bde87fa49572ab65d90429
+}

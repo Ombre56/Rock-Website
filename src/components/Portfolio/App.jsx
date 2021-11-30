@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import song from '../Suncrown - Legend of the Forgotten Centuries.mp3'
-import Slider from '../components/slider/Slider'
-import ControlPanel from '../components/controls/ControlPanel'
+import Slider from './slider/Slider'
+import ControlPanel from './controls/ControlPanel'
 
 function App() {
   const [percentage, setPercentage] = useState(0)

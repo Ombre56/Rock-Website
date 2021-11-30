@@ -1,17 +1,12 @@
 import React from 'react';
 import './App.css';
-import Slider from '../components/Slider'
 import Navbar from '../components/Navbar';
-<<<<<<< HEAD
+import Slider from '../components/Slider'
 import Articles from '../components/Articles';
 import Staff from '../components/Staff';
-=======
-import Articles from '../Articles/Articles';
-import Staff from '../Staff/Staff';
-import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
-import Portfolio from '../Portfolio/Portfolio';
->>>>>>> d4fc6770dd39557936bde87fa49572ab65d90429
+import Portfolio from '../components/Portfolio/Portfolio';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 function App() {
   return (

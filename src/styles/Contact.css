@@ -1,6 +1,6 @@
 .header_kontakt{
     text-align: center;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
@@ -11,7 +11,7 @@
 }
 
 .test{
-    padding: 0 300px 0 300px;
+    padding: 0 30vw 0 30vw;
 }
 
 .formFieldText{
@@ -59,8 +59,8 @@
     float: right;}
 
     .start{
-        margin: 30px;
-        padding: 30px;
+        margin-bottom: 10px;
+        padding-bottom: 30px;
         display: flex;
         flex-direction: column;}
 
@@ -68,6 +68,9 @@
 @media (max-width: 500px) {
     .header_kontakt{
         font-size: calc(40px + 2vmin);
+    }
+    .test{
+        padding: 0;
     }
 }
 
