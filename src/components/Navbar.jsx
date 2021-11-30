@@ -6,7 +6,7 @@ import { FaTimes } from 'react-icons/fa'
 import { ImYoutube } from "react-icons/im";
 import { IoLogoFacebook } from "react-icons/io";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 function Navbar() {
     const [click, setClick] = useState(false);

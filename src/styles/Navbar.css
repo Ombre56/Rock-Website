@@ -80,36 +80,40 @@ nav.active{
 @media screen and (max-width: 600px) {
     .menu-icon{
         display: block;
-        padding-left:  50px;
+        padding-left:  70px;
     }
     .nav{
-        background-color: #585454;
+        background-color: rgba(0, 0, 0, 0.7);
         justify-content: space-between;
-        height: 120px;
-        padding: 0px 20px;  
+        height: 110px;
+        padding: 0 20px;  
     }
     .menu {
         flex-direction: column;
         width: 100%;
         position: absolute;
-        background: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.7);
         border-bottom: 4px solid #FF1414;
         right: 0;
-        top: 130px;
+        top: 110px;
         transition: all 0.5s ease-in-out;
       }
       .social_media_container{
           position: absolute;
-          top: 75px;
+          top: 62px;
           right: 40px;
       }
       .social_media{
         width: 2.2em;
         height: 1.3em;
+        padding-top: 2px;
+      }
+      .logo{
+          padding: 0 0 20px 30px;
       }
       .logo img{
-        width: 13.7em;
-        height: 4.1em;
+        width: 11.81em;
+        height: 3.31em;
         margin-bottom: 20px;
     }
       .menu li {

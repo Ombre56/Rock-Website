@@ -1,0 +1,5 @@
+@media screen and (max-width: 600px) {
+    .carousel.carousel-slider {
+        margin-top: 110px !important;
+    }
+}

@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-// import Header from '../Header/Header';
-import Slider from '../Slider/Slider';
+import Slider from '../components/Slider'
 import Navbar from '../components/Navbar';
-import Articles from '../Articles/Articles';
-import Staff from '../Staff/Staff';
+import Articles from '../components/Articles';
+import Staff from '../components/Staff';
 
 function App() {
   return (

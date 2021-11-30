@@ -39,6 +39,7 @@
     font-size: 2em;
     font-family: Duplexide;
     letter-spacing: 1px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
 }
 
 .profile h5{
