@@ -22,8 +22,6 @@ function AddArticle() {
         setArticlesData(newArticlesData);
     }
 
-    let formData = new FormData();
-
     const addNewArticle = async e => {
         e.preventDefault();
         form.date = localeDate;
@@ -32,8 +30,6 @@ function AddArticle() {
 
         changeArticlesData();
         console.log(form);
-
-        formData.append('file', e.target.files[0])
     }
     
     return (
