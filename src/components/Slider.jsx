@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/Slider.css';
 import "react-responsive-carousel/lib/styles/carousel.css";
 import { Carousel } from 'react-responsive-carousel';
-import img1 from '../images/slider1.jpg';
-import img2 from '../images/slider2.jpg';
-import img3 from '../images/slider3.jpg';
+import img1 from '../assets/images/slider1.jpg';
+import img2 from '../assets/images/slider2.jpg';
+import img3 from '../assets/images/slider3.jpg';
 
 
 function Slider() {

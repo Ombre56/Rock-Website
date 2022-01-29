@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../images/logo.png';
+import logo from '../assets/images/logo.png';
 import LoginForm from './PanelAdmin/LoginForm';
 import { FaBars } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';

@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/Staff.css';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
-import Card1 from '../images/card1.jpg';
-import Card2 from '../images/card2.jpg';
-import Card3 from '../images/card3.jpg';
+import Card1 from '../assets/images/card1.jpg';
+import Card2 from '../assets/images/card2.jpg';
+import Card3 from '../assets/images/card3.jpg';
 
 function Staff() {
     const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam vero aspernatur nemo reprehenderit magnam voluptatum repudiandae, itaque,`;
