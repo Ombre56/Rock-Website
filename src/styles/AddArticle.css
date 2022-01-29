@@ -1,0 +1,27 @@
+.form-add-article{
+    min-height: 10vh;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.add-article-container{
+    margin-top: 10px;
+}
+
+.add-article-title, .add-article-image,  .add-article-textarea{
+    margin-left: 10px;
+}
+
+.add-article-button{
+    border: 1px solid #008000;
+    font-size: 20px;
+    background-color: #000;
+    color: white;
+    margin-top: 5px;
+    padding: 6px;
+}
+
+.add-article-button:hover{
+    background-color: #008000;
+    cursor: pointer;    
+}

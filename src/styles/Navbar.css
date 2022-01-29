@@ -6,14 +6,34 @@
 	top: 0;
     color: #fff;
 	width: 100%;
-	z-index: 1;
+	z-index: 10;
     background-color: transparent;
     transition: 0.6s ease-in-out;
 }
+
 nav.active{
 	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
 	background-color: #585454;
 }
+
+.admin-button{
+	background-color: #000;
+}
+
+.admin-form, .admin-articles{
+    position: fixed;
+    z-index: 2;
+    padding: 20vh 40vw 0 40vw;
+}
+
+.admin-form-none{
+    display: none;
+}
+
+.articles_list-none{
+    display: none;
+}
+
 .logo img{
     width: 19em;
     height: 5.8em;
@@ -23,6 +43,16 @@ nav.active{
 .logo{
     flex-basis: 10%;
     padding-left: 1em;
+}
+
+.articles_list{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .social_media_container{
@@ -38,7 +68,6 @@ nav.active{
 
 .menu-icon {
     display: none;
-    font-size: 1.25em;
 }
 
 .menu {
@@ -63,7 +92,7 @@ nav.active{
     cursor: pointer;
 }
 
-.menu a:hover{
+.menu a:hover, .articles_list:hover{
 	background-color: #000;
     color:#ffffff;
 	box-shadow: 5px 10px 30px rgb(0, 0, 0);

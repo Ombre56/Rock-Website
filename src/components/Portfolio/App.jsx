@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import song from '../Suncrown - Legend of the Forgotten Centuries.mp3'
+import song from './Suncrown - Legend of the Forgotten Centuries.mp3'
 import Slider from './slider/Slider'
 import ControlPanel from './controls/ControlPanel'
 
