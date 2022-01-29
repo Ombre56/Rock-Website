@@ -1,59 +1,24 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/static/css/main.7e489312.chunk.css",
-    "main.js": "/static/js/main.d01bece0.chunk.js",
-    "main.js.map": "/static/js/main.d01bece0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.38e1d012.js",
-    "runtime-main.js.map": "/static/js/runtime-main.38e1d012.js.map",
-    "static/css/2.f87b1312.chunk.css": "/static/css/2.f87b1312.chunk.css",
-    "static/js/2.b9fcc7d9.chunk.js": "/static/js/2.b9fcc7d9.chunk.js",
-    "static/js/2.b9fcc7d9.chunk.js.map": "/static/js/2.b9fcc7d9.chunk.js.map",
+    "main.css": "/static/css/main.f35a98d8.css",
+    "main.js": "/static/js/main.425147c5.js",
+    "static/media/card2.jpg": "/static/media/card2.d15a604774ce735a4ea0.jpg",
+    "static/media/card3.jpg": "/static/media/card3.78bfd90568624e6937a1.jpg",
+    "static/media/card1.jpg": "/static/media/card1.1bc4d798864c1ef2de28.jpg",
+    "static/media/slider2.jpg": "/static/media/slider2.5ad92afdda769d47135a.jpg",
+    "static/media/slider1.jpg": "/static/media/slider1.9217ccded1bd81a571ed.jpg",
+    "static/media/slider3.jpg": "/static/media/slider3.66f807c207fe87630f02.jpg",
+    "static/media/Duplexide.ttf": "/static/media/Duplexide.7eade62a4ecf19d91e70.ttf",
+    "static/media/logo.png": "/static/media/logo.03bb909a60e21e76e5f4.png",
+    "static/media/background.png": "/static/media/background.37dcef38b458adbab332.png",
+    "static/media/article2.jpg": "/static/media/article2.6477f21a0db83faff767.jpg",
+    "static/media/article3.jpg": "/static/media/article3.6477f21a0db83faff767.jpg",
     "index.html": "/index.html",
-    "static/css/2.f87b1312.chunk.css.map": "/static/css/2.f87b1312.chunk.css.map",
-    "static/css/main.7e489312.chunk.css.map": "/static/css/main.7e489312.chunk.css.map",
-    "static/js/2.b9fcc7d9.chunk.js.LICENSE.txt": "/static/js/2.b9fcc7d9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Duplexide.7eade62a.ttf",
-    "static/media/article2.jpg": "/static/media/article2.6477f21a.jpg",
-    "static/media/article3.jpg": "/static/media/article3.6477f21a.jpg",
-=======
-    "main.css": "/static/css/main.e351ded0.chunk.css",
-    "main.js": "/static/js/main.3a831adc.chunk.js",
-    "main.js.map": "/static/js/main.3a831adc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.38e1d012.js",
-    "runtime-main.js.map": "/static/js/runtime-main.38e1d012.js.map",
-    "static/css/2.09d656f9.chunk.css": "/static/css/2.09d656f9.chunk.css",
-    "static/js/2.1ad60de4.chunk.js": "/static/js/2.1ad60de4.chunk.js",
-    "static/js/2.1ad60de4.chunk.js.map": "/static/js/2.1ad60de4.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.09d656f9.chunk.css.map": "/static/css/2.09d656f9.chunk.css.map",
-    "static/css/main.e351ded0.chunk.css.map": "/static/css/main.e351ded0.chunk.css.map",
-    "static/js/2.1ad60de4.chunk.js.LICENSE.txt": "/static/js/2.1ad60de4.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Duplexide.7eade62a.ttf",
-    "static/media/article1.jpg": "/static/media/article1.ded86a40.jpg",
-    "static/media/article2.jpg": "/static/media/article2.61ed389f.jpg",
->>>>>>> 038ab8222ccb9301cf3593fd24c86e734cea32ef
-    "static/media/App.css": "/static/media/background.37dcef38.png",
-    "static/media/card1.1bc4d798.jpg": "/static/media/card1.1bc4d798.jpg",
-    "static/media/card2.d15a6047.jpg": "/static/media/card2.d15a6047.jpg",
-    "static/media/card3.78bfd905.jpg": "/static/media/card3.78bfd905.jpg",
-    "static/media/logo.03bb909a.png": "/static/media/logo.03bb909a.png",
-    "static/media/slider1.9217ccde.jpg": "/static/media/slider1.9217ccde.jpg",
-    "static/media/slider2.5ad92afd.jpg": "/static/media/slider2.5ad92afd.jpg",
-    "static/media/slider3.66f807c2.jpg": "/static/media/slider3.66f807c2.jpg"
+    "main.f35a98d8.css.map": "/static/css/main.f35a98d8.css.map",
+    "main.425147c5.js.map": "/static/js/main.425147c5.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.38e1d012.js",
-<<<<<<< HEAD
-    "static/css/2.f87b1312.chunk.css",
-    "static/js/2.b9fcc7d9.chunk.js",
-    "static/css/main.7e489312.chunk.css",
-    "static/js/main.d01bece0.chunk.js"
-=======
-    "static/css/2.09d656f9.chunk.css",
-    "static/js/2.1ad60de4.chunk.js",
-    "static/css/main.e351ded0.chunk.css",
-    "static/js/main.3a831adc.chunk.js"
->>>>>>> 038ab8222ccb9301cf3593fd24c86e734cea32ef
+    "static/css/main.f35a98d8.css",
+    "static/js/main.425147c5.js"
   ]
 }
