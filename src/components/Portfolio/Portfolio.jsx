@@ -28,7 +28,10 @@ function Portfolio() {
                         <p>Zespół Rockowy - Na Wieży Leży Jerzy</p></h1>
                 </div>
             </div>
-            <div className="container">
+            <div className="songTitle">
+                <p>Zespół Rockowy - Chill Theme</p>
+            </div>
+            <div className="ReactAudioPlayer">
                 <ReactAudioPlayer
                     src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
                     autoPlay

@@ -1,6 +1,6 @@
 .header_staff{
     text-align: center;
-    padding-top: 1.1em;
+    margin-top: 1.1em;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);

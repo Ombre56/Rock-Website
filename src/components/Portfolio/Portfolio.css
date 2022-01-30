@@ -1,7 +1,7 @@
 .header_portfolio{
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 60px;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
@@ -21,29 +21,32 @@
 
 .list {
     display: flex;
-    flex: 1;
     justify-content: right;
     padding-right: 30px;
 }
 
 .list2 {
+    width: 100%;
     display: flex;
-    flex: 1;
     justify-content: left;
     padding-left: 30px;
 }
 
-.container {
+.songTitle {
+    font-size: 37px;
     padding-top: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.ReactAudioPlayer {
+    padding-top: 10px;
     display: flex;
-    flex: 1;
     justify-content: center;
-    height: 200px;
-    width: 1000px;
 }
 
 .react-audio-player {
-    width: 90%;
+    width: 70%;
 }
 
  /* Display on phone vertically */
@@ -53,18 +56,37 @@
     }
     .portfolio {
         display: flex;
+        padding: 0px;
         flex-direction: column;
         font-size: calc(40px + 2vmin);
     }
 
+    .list {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .list2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
     .list h1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
         font-size: calc(10px + 1vmin);
-        margin-bottom: 10px;
     }
 
     .list2 h1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
         font-size: calc(10px + 1vmin);
-        margin-bottom: 20px;
     }
 
     .player {
@@ -73,6 +95,19 @@
 
     .player h6 {
         font-size: calc(40px + 2vmin);
+    }
+
+    .songTitle {
+    padding-top: 40px;
+    font-size: 150%;
+    }
+
+    .portfolio_section {
+    min-height: 80vh;
+    }
+
+    .react-audio-player {
+    width: 82%;
     }
 }
         
@@ -83,18 +118,37 @@
     }
     .portfolio {
         display: flex;
-        flex-direction: row;
+        padding: 0px;
+        flex-direction: column;
         font-size: calc(40px + 2vmin);
     }
 
+    .list {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .list2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+
     .list h1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
         font-size: calc(10px + 1vmin);
-        margin-bottom: 10px;
     }
 
     .list2 h1{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
         font-size: calc(10px + 1vmin);
-        margin-bottom: 20px;
     }
 
     .player {
@@ -103,5 +157,18 @@
 
     .player h6 {
         font-size: calc(40px + 2vmin);
+    }
+
+    .songTitle {
+    padding-top: 40px;
+    font-size: 150%;
+    }
+
+    .portfolio_section {
+    min-height: 80vh;
+    }
+
+    .react-audio-player {
+    width: 82%;
     }
 }

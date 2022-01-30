@@ -1,6 +1,6 @@
 .header_kontakt{
     text-align: center;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     font-size: calc(80px + 2vmin);
     font-family: Duplexide;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
@@ -41,6 +41,18 @@
     font: inherit; 
     border-radius: 8px;}
 
+.firstTwo {
+    padding: 0px 10px 0px 10px;
+}
+
+.opis {
+    padding: 0px 10px 0px 10px;
+}
+
+.lastOne {
+    padding: 0px 10px 0px 10px;
+}
+
 #desc{
     background-color: #8b8b8b;
     border: solid white;
@@ -55,6 +67,7 @@
     line-height: 32px; 
     font-size: 14px;
     padding: 0 25px; 
+    margin-right: 10px;
     border-radius: 3px;
     float: right;}
 
