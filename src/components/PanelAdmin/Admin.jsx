@@ -3,23 +3,23 @@ import { useBetween } from 'use-between';
 import '../../styles/Admin.css';
 import AddArticle from './AddArticle';
 import StateArticles from './StateArticles';
+import { FaRegTimesCircle } from 'react-icons/fa';
 
 function Admin() {
-    const { articlesData, articles, setArticlesData } = useBetween(StateArticles);
+    const { articlesData, articles, setArticlesData, setArticles } = useBetween(StateArticles);
     const [showAddArticle, setShowAddArticle] = useState(false);
 
     let articleId = 1;
 
     const deleteArticle = (id) => {
-        if (window.confirm("Jesteś tego pewny?")) {
             setArticlesData(articlesData.filter(item => item.id !== id))
-        }
     }
 
     const handleShowAddArticle = () => {
         setShowAddArticle(!showAddArticle)
     }
 
+    const handleCloseArticles = () => setArticles(!articles);
 
     return (
         <>
@@ -27,6 +27,7 @@ function Admin() {
                 <div className='admin-container'>
                     <hr />
                     <div className="admin-title">Lista artykułów</div>
+                    <FaRegTimesCircle className='buttonCloseArticlesForm' onClick={handleCloseArticles} >X</FaRegTimesCircle>
                     <hr />
                     <div className="admin-container-records">
                         {articlesData.map(({ id, title }) => (
