@@ -13,6 +13,15 @@
     padding: 15px;
 }
 
+.buttonCloseArticlesForm{
+    position: absolute;
+    z-index: 100;
+    right: 30vw;
+    top: 18.5vh;
+    color: white;
+    font-size: 1.87em;
+    }
+
 .admin-title{
     text-align: center;
     font-size: 40px;
@@ -56,6 +65,30 @@ div .admin-button-add{
     cursor: pointer;    
 }
 
+.buttonCloseArticlesForm-none{
+    display: none;
+}
+
 .form-add-article-none{
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .admin-title{
+        font-size: 30px;
+    }
+
+    .admin-records li{
+        font-size: 16px;
+    }
+
+    .admin-button-delete{
+        font-size: 13px;
+    }
+
+    .buttonCloseArticlesForm{
+        z-index: 100;
+        right: 10vw;
+        top: -2vh;
+    }
 }
