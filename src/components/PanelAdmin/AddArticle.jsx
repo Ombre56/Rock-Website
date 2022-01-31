@@ -60,7 +60,7 @@ function AddArticle() {
                     <textarea
                         style={{ resize: "none" }}
                         rows="4"
-                        cols="50"
+                        cols="30"
                         value={form.text}
                         className='add-article-description'
                         onChange={(e) => setForm({...form, text: e.target.value})}
