@@ -69,6 +69,10 @@ div .admin-button-add{
     display: none;
 }
 
+.empty-div{
+    min-height: 1vh;    
+}
+
 .form-add-article-none{
     display: none;
 }
