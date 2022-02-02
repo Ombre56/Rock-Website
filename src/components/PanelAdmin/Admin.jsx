@@ -39,6 +39,7 @@ function Admin() {
                         ))}
                     </div>
                     <div className="admin-button-add" onClick={handleShowAddArticle}>Dodaj nowy</div>
+                    <div className='empty-div'></div>
                     <div className={showAddArticle ? "form-add-article" : "form-add-article-none"} >
                         <AddArticle />
                     </div>
