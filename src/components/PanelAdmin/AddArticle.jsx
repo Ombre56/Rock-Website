@@ -22,14 +22,21 @@ function AddArticle() {
         setArticlesData(newArticlesData);
     }
 
-    const addNewArticle = async e => {
+    const imageHandler = (e) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+                setForm({ ...form, image: reader.result })
+        }
+        reader.readAsDataURL(e.target.files[0]);
+    }
+
+    const addNewArticle = e => {
         e.preventDefault();
         form.date = localeDate;
         form.id++;
         form.id = newId;
 
         changeArticlesData();
-        console.log(form);
     }
     
     return (
@@ -40,6 +47,7 @@ function AddArticle() {
                     <input
                         type="text"
                         name="title"
+                        maxLength={16}
                         className='add-article-title'
                         value={form.title}
                           onChange={(e) => setForm({...form, title: e.target.value})}
@@ -53,14 +61,14 @@ function AddArticle() {
                         accept='image/png, image/jpeg'
                         max-size="20"
                         className='add-article-image'
-                        onChange={(e) => setForm({ ...form, image: e.target.files[0] })}
+                        onChange={imageHandler}
                     />
                 </label><br />
                 <label htmlFor="description">Opis: <br />
                     <textarea
                         style={{ resize: "none" }}
                         rows="4"
-                        cols="50"
+                        cols="30"
                         value={form.text}
                         className='add-article-description'
                         onChange={(e) => setForm({...form, text: e.target.value})}

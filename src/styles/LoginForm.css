@@ -9,7 +9,7 @@
 
 .buttonCloseForm{
     position: absolute;
-    z-index: 10;
+    z-index: 100;
     right: 41vw;
     top: 18.5vh;
     color: white;
@@ -54,4 +54,25 @@
     background-color: #201f1f;
     color: white;
     border: 1px solid #585454;
+}
+
+@media screen and (max-width: 600px) {
+
+    .buttonCloseForm{
+        right: 15vw;
+        top: 8vh;
+    }
+    .form-button{
+        margin: 20px 0 0 110px;
+        font-size: 15px;
+    }
+    .form-title{
+        font-size: 2.2em;
+    }
+    .form-login, .form-password{
+        font-size: 0.8em;
+    }
+    .form-error{
+        font-size: 15px;
+    }
 }

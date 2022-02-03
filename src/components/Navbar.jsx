@@ -16,12 +16,15 @@ import StateArticles from './PanelAdmin/StateArticles';
 import Admin from './PanelAdmin/Admin';
 
 function Navbar() {
+    const [login, setLogin] = useState(false);
     const [click, setClick] = useState(false);
     const [nav, setNav] = useState(false);
-    const [login, setLogin] = useState(false);
     const { articles, checkAdmin , setArticles, setCheckAdmin } = useBetween(StateArticles);
 
-    const openFormLogin = () => setLogin(!login);
+    const openFormLogin = () => {
+        setLogin(!login);
+        setClick(false);
+    };
 
     const changeBackground = () => {
         const scrollWindow = window.scrollY >= 50;
@@ -30,15 +33,15 @@ function Navbar() {
 
     window.addEventListener('scroll', changeBackground);
     const handleClick = () => setClick(!click);
-    const handleClickArticles = () => setArticles(!articles);
+    const handleClickArticles = () => {
+        setArticles(!articles);
+        setClick(false);
+    };
     const closeMobileMenu = () => setClick(false);
 
     const handleClickLogout = () => {
-        if (window.confirm("Jesteś tego pewny?")) {
             setCheckAdmin(!checkAdmin);
             setArticles(false);
-            alert("Wylogowałeś się!");
-        }
     }
 
     const telephone = "+48 123 456 789";
