@@ -11,7 +11,7 @@ function AddArticle() {
         image: '',
         text: ''
     });
-    const { articlesData, setArticlesData } = useBetween(StateArticles);
+    const { articlesData, articles, showAddArticle ,setArticlesData, setArticles, setShowAddArticle } = useBetween(StateArticles);
 
     const newId = Math.round(Math.random(form.id)*(30-4)+4);
     const today = new Date()
@@ -37,6 +37,14 @@ function AddArticle() {
         form.id = newId;
 
         changeArticlesData();
+        setForm({
+            title: '',
+            image: '',
+            text: ''
+        });
+
+        setArticles(!articles);
+        setShowAddArticle(!showAddArticle);
     }
     
     return (
@@ -47,6 +55,7 @@ function AddArticle() {
                     <input
                         type="text"
                         name="title"
+                        id='title'
                         maxLength={16}
                         className='add-article-title'
                         value={form.title}
@@ -68,6 +77,7 @@ function AddArticle() {
                     <textarea
                         style={{ resize: "none" }}
                         rows="4"
+                        id='text'
                         cols="30"
                         value={form.text}
                         className='add-article-description'
