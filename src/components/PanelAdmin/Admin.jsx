@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useBetween } from 'use-between';
 import '../../styles/Admin.css';
 import AddArticle from './AddArticle';
@@ -6,8 +6,7 @@ import StateArticles from './StateArticles';
 import { FaRegTimesCircle } from 'react-icons/fa';
 
 function Admin() {
-    const { articlesData, articles, setArticlesData, setArticles } = useBetween(StateArticles);
-    const [showAddArticle, setShowAddArticle] = useState(false);
+    const { articlesData, articles, showAddArticle, setArticlesData, setArticles, setShowAddArticle } = useBetween(StateArticles);
 
     let articleId = 1;
 

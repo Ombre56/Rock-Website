@@ -13,10 +13,18 @@ function LoginForm() {
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
     const { checkAdmin, setCheckAdmin } = useBetween(StateArticles);
-    
+
+    const messageAdmin = 'Gratulacje jesteś teraz adminem!';
+
     const submitForm = (e) => {
-        const checkDeatils = (login === correctDetails.login && password === correctDetails.password);
+        const checkDeatils = (
+                login === correctDetails.login
+            &&
+            password === correctDetails.password
+        );
+
         e.preventDefault();
+
         if (checkDeatils) {
             setCheckAdmin(!checkAdmin);
         } else {
@@ -32,40 +40,43 @@ function LoginForm() {
 
     return (
     <>
-        {checkAdmin ? <div className="admin-message">Gratulacje jesteś teraz adminem!</div> :
-            <div className="login-container">
-                <h3 className='form-title'>Panel admina</h3>
-                    <form onSubmit={submitForm}>
-                        <div className="form-error">{error}</div>
-                            <div className="form-container">
-                                <div className="form-group">
-                                    <label htmlFor="login" className='form-login'>Login: </label>
-                                        <input
-                                            type="text"
-                                            name="login"
-                                            id="login"
-                                            placeholder="Wpisz login..."
-                                            autoComplete="off"
-                                            value={login}
-                                            onChange={(e) => setLogin(e.target.value)}
-                                        />
-                                </div>
-                                    <div className="form-group">
-                                        <label htmlFor="password" className='form-password'>Hasło: </label>
-                                        <input
-                                            type="password"
-                                            name="password"
-                                            id="password"
-                                            placeholder="Wpisz hasło..."
-                                            autoComplete="off"
-                                            value={password}
-                                            onChange={(e) => setPassword(e.target.value)}
-                                    />
+            {checkAdmin
+                    ?
+                <div className="admin-message">{messageAdmin}</div>
+                    :
+                    <div className="login-container">
+                        <h3 className='form-title'>Panel admina</h3>
+                            <form onSubmit={submitForm}>
+                                <div className="form-error">{error}</div>
+                                    <div className="form-container">
+                                        <div className="form-group">
+                                            <label htmlFor="login" className='form-login'>Login: </label>
+                                                <input
+                                                    type="text"
+                                                    name="login"
+                                                    id="login"
+                                                    placeholder="Wpisz login..."
+                                                    autoComplete="off"
+                                                    value={login}
+                                                    onChange={(e) => setLogin(e.target.value)}
+                                                />
+                                        </div>
+                                            <div className="form-group">
+                                                <label htmlFor="password" className='form-password'>Hasło: </label>
+                                                <input
+                                                    type="password"
+                                                    name="password"
+                                                    id="password"
+                                                    placeholder="Wpisz hasło..."
+                                                    autoComplete="off"
+                                                    value={password}
+                                                    onChange={(e) => setPassword(e.target.value)}
+                                            />
+                                    </div>
+                                    <input type="submit" className='form-button' value="Zaloguj" />
                             </div>
-                            <input type="submit" className='form-button' value="Zaloguj" />
+                        </form>
                     </div>
-                </form>
-            </div>
         }
     </>
     )
