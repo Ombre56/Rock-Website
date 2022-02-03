@@ -49,6 +49,10 @@
     width: 70%;
 }
 
+.portfolio_section {
+    min-height: 80vh;
+}
+
  /* Display on phone vertically */
 @media (max-width: 400px) {
     .header_portfolio{
