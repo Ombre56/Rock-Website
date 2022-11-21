@@ -17,7 +17,7 @@
 
 ## Demo
 
-➢ https://kaem.net.pl
+➢ https://ombre56.github.io/Rock-Website/
 
 
 ## Screenshots
