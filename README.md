@@ -5,8 +5,8 @@
 
 ## Authors
 
-- [@Ombre56](https://www.github.com/Ombre56)
-- [@itzMaxinho](https://github.com/itzMaxinho)
+- [Ombre56](https://www.github.com/Ombre56)
+- [itzMaxinho](https://github.com/itzMaxinho)
 
 
 ## Tech Stack
