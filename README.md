@@ -18,7 +18,7 @@
 
 ## Demo
 
-➢ https://ombre56.github.io/Rock-Website/
+➢ https://rock-website.vercel.app
 
 
 ## Screenshots
